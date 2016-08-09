@@ -10,14 +10,17 @@ namespace weekend_bank_project
     {
         static void Main(string[] args)
         {
-           
+
             //create object
-        {
-                checking credit = new checking("\n\n This is your current balance.");
-                checking debit = new checking("\n\n This is your current balance.");
+
+            checking credit = new checking("\n\n This is your current balance.");
+            checking debit = new checking("\n\n This is your current balance.");
 
 
 
+
+            do
+            {
 
 
                 Console.WriteLine("hello what type of transaction would you like to make?");
@@ -29,7 +32,36 @@ namespace weekend_bank_project
 
                 Console.Clear();
 
-                Console.WriteLine("Do you want to make a deposit or withdraw");
-            }
-    }
-}
+                switch (number)
+                {
+                    case 1:
+
+                        //action
+                        deposit or withdraw
+
+
+
+                        break;
+
+                    case 2:
+
+                        //action
+                        deposit or withdraw
+                        break;
+
+                    case 3:
+                        //action
+                        deposit or withdraw
+
+                        break;
+
+                    default:
+
+                        break;
+
+
+
+                }  while ("do you want another trasaction")
+        }   }
+               
+}   }

@@ -33,5 +33,5 @@ namespace weekend_bank_project
         public double CalculateAmountSaved()
         {//how much money did balacnce earn us
             return Balance * AmountSaved;
-        }
+        }   }
 }

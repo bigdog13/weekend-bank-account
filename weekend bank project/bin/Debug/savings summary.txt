@@ -1,1 +1,12 @@
-﻿
+﻿                Console.WriteLine("Main Menu: ");
+                Console.WriteLine("1. View Client Information: ");
+                Console.WriteLine("View Account Balance: ");
+                Console.WriteLine("2. Checking Balance: ");
+                Console.WriteLine("3.Reserve Balance: ");
+                Console.WriteLine("4.Saving Balance: ");
+                Console.WriteLine("5.Deposit Funds");
+                Console.WriteLine("6.Withdraw Funds");
+                Console.WriteLine("7.Reset");
+                Console.WriteLine("8.Exit >");
+                inputKey = Console.ReadLine();
+                Console.Clear();
